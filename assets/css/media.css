@@ -1,0 +1,404 @@
+@media (max-width:1890px) {
+	.slide2 {
+		display: none !important;
+	}
+	.about__info {
+		width: 100%;
+	}
+}
+
+@media (max-width:1800px) {
+	.visit__info {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.visit:before {
+		width: 0;
+		background: none;
+	}
+}
+
+@media (max-width:1600px) {
+	.about__info {
+		padding-right: 100px;
+	}
+	.navigation .wrapper {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.navigation__list {
+		margin-top: 30px;
+	}
+  .main {
+    margin-top: 233px;
+  }
+}
+
+@media (max-width:1500px) {
+	.services__item {
+		background-position-x: 100px;
+		background-size: 90%;
+		background-position-y: bottom;
+	}
+	.services__item--second {
+		background-position-y: top;
+	}
+}
+
+@media (max-width:1450px) {
+	.about__picture {
+		display: none;
+	}
+	.about__info {
+		width: 100%;
+	}
+	.doctors__list {
+		padding-left: 135px;
+		padding-right: 135px;
+	}
+}
+
+@media (max-width:1300px) {
+	.navigation__item:not(:first-child) {
+		margin-left: 30px;
+	}
+	.navigation__link {
+		font-size: 20px;
+	}
+	.services__item--fourth {
+		background-position-y: 180px;
+	}
+	.map__info {
+		padding-right: 200px;
+	}
+}
+
+@media (max-width:1060px) {
+	.modal-doctor__close {
+		right: -20px;
+	}
+	.modal-prices {
+		padding: 50px;
+	}
+	.modal-prices__price, .modal-prices__text {
+		font-size: 15px;
+	}
+	.services__item--second {
+		background-position-x: 130px;
+	}
+	.services__item--fourth {
+		background-position-y: 250px;
+	}
+	.visit__info {
+		max-width: none;
+	}
+	.navigation__link {
+		font-size: 18px;
+	}
+	.map__info {
+		padding-right: 48px;
+	}
+	.visit .wrapper {
+		padding-right: 55px;
+	}
+	.visit__label {
+		max-width: 240px;
+		margin-bottom: 5px;
+	}
+	.visit__title {
+		text-align: center;
+	}
+	.visit__info {
+		padding-left: 0;
+	}
+	.visit__form {
+		max-width: 760px;
+		margin: 0 auto;
+	}
+	.visit__field--button {
+		padding-left: 0;
+		text-align: center;
+	}
+	.visit__field--radio {
+		padding-left: 240px;
+	}
+}
+
+@media (max-width:980px) {
+	.wrapper {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.services__item {
+		padding-left: 30px;
+	}
+	.doctors {
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.about__info {
+		padding: 30px;
+	}
+	.visit .wrapper {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.map__info {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.footer .wrapper {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.visit__field {
+		max-width: 505px;
+		margin: 0 auto;
+		margin-bottom: 19px;
+	}
+	.visit__field--radio {
+		padding-left: 0;
+		margin-bottom: 30px;
+	}
+	.visit__info {
+		padding-bottom: 76px;
+	}
+	.messagers__phone {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.navigation__list {
+		display: block;
+		background: rgb(255, 255, 255);
+		width: 100%;
+	}
+	.navigation__item:not(:first-child) {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.burger-menu {
+		display: block;
+	}
+	.navigation .wrapper {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.services__item {
+		width: 100%;
+		min-height: 420px;
+		padding-top: 44px;
+		background-position-y: bottom;
+		background-size: 100%;
+	}
+	.services__item--third {
+		background-position-y: 10px;
+	}
+	.services__item--second {
+		background-position-y: top;
+	}
+	.messagers__phones {
+		display: none;
+	}
+	.navigation__list {
+		display: none;
+	}
+	.services__item--fourth, .services__item--third {
+		background-position-y: 20px;
+	}
+	.services__item--third {
+		background-position-x: 110px;
+	}
+	.doctors__list {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.doctors__circle {
+		margin: 0 auto;
+		margin-bottom: 38px;
+	}
+	.modal-prices {
+		padding: 30px;
+	}
+	.modal-prices__text {
+		max-width: 550px;
+	}
+  .messagers__phone--mobile,
+  .navigation__item--mobile {
+    display: block;
+  }
+
+  .messagers__phone--mobile {
+    color: #58595a;
+    margin-left: 0;
+    font-size: 18px;
+  }
+  .main {
+    margin-top: 175px;
+  }
+}
+
+@media (max-width:960px) {
+	.slide2 {
+		display: block !important;
+		width: 100%;
+	}
+	.about {
+		flex-wrap: wrap;
+	}
+	.about__info {
+		width: 100%;
+	}
+}
+
+@media (max-width:768px) {
+	.modal-prices__text {
+		max-width: 400px;
+		font-size: 14px;
+	}
+	.map #contactsmap {
+		height: 50%;
+	}
+	.map {
+		height: 925px;
+	}
+	.map__info {
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+	.services__item--fourth, .services__item--third {
+		background-position-y: 50px;
+	}
+	.visit__title {
+		text-align: left;
+	}
+	.visit__field {
+		max-width: none;
+	}
+	.visit__field--button {
+		text-align: left;
+		margin-bottom: 0;
+	}
+  .navigation {
+    position: static;
+  }
+  .main {
+    margin-top: 0;
+  }
+}
+
+@media (max-width:650px) {
+	.modal-agreement__close {
+		right: 0;
+		top: -50px;
+	}
+	.modal-agreement__title {
+		font-size: 16px;
+	}
+	.modal-doctor__close {
+		right: -10px;
+	}
+	.modal-prices {
+		border-width: 13px;
+	}
+	.modal-prices__title {
+		margin-bottom: 35px;
+	}
+	.modal-prices__title {
+		font-size: 26px;
+	}
+	.modal-prices__field {
+		flex-direction: column;
+		margin-bottom: 10px;
+		align-items: flex-start;
+	}
+	.modal-prices__price {
+		font-weight: 700;
+		margin-top: 5px;
+	}
+	.services__item {
+		background-image: none;
+	}
+	.visit__radio-label {
+		font-size: 13px;
+	}
+
+  .navigation__logo {
+    width: 50%;
+  }
+	.navigation__logo img {
+		width: 100%;
+	}
+	.contacts .wrapper {
+		flex-wrap: wrap;
+	}
+	.modal-doctor {
+		border-width: 13px;
+	}
+	.modal-doctor__info {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media (max-width:480px) {
+	.about__picture {
+		max-height: 300px;
+	}
+	.modal-doctor__close {
+		top: -55px;
+	}
+	.modal-doctor__name {
+		font-size: 25px;
+		margin-bottom: 15px;
+	}
+	.modal-prices {
+		padding: 15px;
+	}
+	.modal-prices__title {
+		font-size: 20px;
+	}
+	.map {
+		height: 740px;
+	}
+	.visit .wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.messagers__link:not(:last-child) {
+		margin-right: 10px;
+	}
+	.services__item {
+		padding-left: 15px;
+	}
+	.doctors {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.about__info {
+		padding: 15px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.visit__info {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.map__info {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 30px;
+		padding-bottom: 35px;
+	}
+	.footer .wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
